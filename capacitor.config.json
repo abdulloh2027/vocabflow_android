@@ -1,0 +1,22 @@
+{
+  "appId": "uz.linguistpro.vocabflow",
+  "appName": "VocabFlow",
+  "webDir": "www",
+  "server": {
+    "url": "https://vocab-flow-gilt.vercel.app/",
+    "cleartext": false,
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#0d0500"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#0d0500",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}
